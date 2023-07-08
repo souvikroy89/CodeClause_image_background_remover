@@ -36,10 +36,3 @@ Safari
 Microsoft Edge
 Please note that older browsers may not support some of the features used in this tool.
 
-Acknowledgements
-This project was created using the following technologies and resources:
-
-HTML5
-CSS3
-JavaScript
-background_removal.js (background removal algorithm)
