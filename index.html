@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Background Remover</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SOUVIK'S IMAGE BACKGROUND REMOVER</h1>
+    <div class="upload-wrapper">
+      <input type="file" id="upload" accept="image/*">
+      <p class="upload-message">Upload an image</p>
+      <button class="upload-button" id="remove-background"><strong>REMOVE BACKGROUND</strong></button>
+      <a class="download-button" id="download-link" href="#" download="background_removed_image.png"><strong>DOWNLOAD</strong></a>
+    </div>
+    <div id="preview-container">
+      <h3>SEE YOUR IMAGE</h3>
+      <img id="preview-image" alt="Preview Image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-wrapper {
+    border: 2px dashed #000000;
+    padding: 30px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .upload-message {
+    font-size: 18px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  .upload-button {
+    padding: 10px 20px;
+    background-color: #fcba03;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .upload-button:hover {
+    background-color: #ff6633;
+  }
+  
+  .download-button {
+    display: none;
+    padding: 10px 20px;
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .download-button:hover {
+    background-color: #d65c7a;
+  }
+  
+  #preview-container {
+    margin-top: 40px;
+    text-align: center;
+    border: 3px solid black;
+  }
+  
+  #preview-image {
+    max-width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
